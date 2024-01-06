@@ -6,11 +6,61 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* nav css code  srart */
+/* website width css  */
+.nav {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* header css start  */
+.header {
+  background-color: #fff8f3;
+}
+
+/* nav css */
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* site title css   */
+.site-title > h3 {
+  font-size: 45px;
+  font-weight: 800px;
+  color: #181818;
+}
+
+/* menu css  */
+.menu ul {
+  display: flex;
+  align-items: c;
+  list-style-type: none;
+}
+
+.menu ul li {
+  padding: 0 30px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 28px;
+}
+
+/* button in menu css  */
+.button {
+  border: 0;
+  background-color: #fd6e0a;
+  padding: 15px 36px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700px;
+}
